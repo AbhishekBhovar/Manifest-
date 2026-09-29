@@ -1,3 +1,5 @@
-MANIFEST 2.0
+MANIFEST 2.1
 
-Image-only Vision Board, direct iPhone photo upload, compact setup popup, strict clean 0/7 onboarding state, and editable/replaceable vision images.
+GitHub Pages ready. Upload the contents of this folder to the repository root.
+
+Adds a permanent fifth Fuel tab with a Pinterest-style masonry board for quotes, incidents and images/screenshots. “How I’ll use it” is optional. Fuel images are stored locally in IndexedDB on the device.
