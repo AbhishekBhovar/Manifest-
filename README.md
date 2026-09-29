@@ -1,4 +1,4 @@
-# MANIFEST 1.1
+# MANIFEST 1.2
 **See it. Believe it. Live it.**
 
 Mobile-first goals, vision-board and manifestation web app, designed around iPhone 16 Pro.
