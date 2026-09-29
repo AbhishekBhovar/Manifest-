@@ -24,3 +24,19 @@ main{padding-left:22px;padding-right:22px}
 .visionempty{width:100%;min-height:430px;border-radius:28px;background:radial-gradient(circle at 50% 18%,#52211c 0,#201514 38%,#111 78%);color:#f7eee3;padding:34px 28px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:12px}.visionempty .emptyplus{width:64px;height:64px;border-radius:50%;display:grid;place-items:center;background:#e83b31;font-size:38px}.visionempty strong{font-family:Georgia,serif;font-size:27px;font-weight:500}.visionempty small{font-size:14px;line-height:1.45;color:#cdbfb2;max-width:270px}.visionempty b{margin-top:12px;background:#f3e8d8;color:#181311;border-radius:999px;padding:12px 18px;font-size:13px}
 .imagepreview{height:250px;border-radius:22px;background:var(--img) center var(--pos,50%)/cover no-repeat,#332824;display:flex;align-items:center;justify-content:center;text-align:center;color:#c8b8aa;padding:20px;margin:8px 0 10px;overflow:hidden}.filepick{display:none}input[type=range]{width:100%;accent-color:#e83b31;margin:10px 0 14px}.optional{opacity:.55;font-weight:400}.coral,.primary.red{background:#e83b31!important;color:white!important}.danger{color:#ff8f87!important}
 nav button{opacity:.72}nav button span{font-size:11px}
+/* MANIFEST 1.6 — compact setup + image-only vision board */
+.visionlead,.visioncaption{display:none!important}
+.visionmosaic.imageonly{gap:4px;margin-top:14px}
+.visionmosaic.imageonly .visiontile{padding:0;display:block;min-height:215px;border-radius:14px;box-shadow:none;background-image:var(--img);background-size:cover;background-repeat:no-repeat;background-position:center var(--pos,50%)}
+.visionmosaic.imageonly .visiontile:after{display:none}
+.visionmosaic.imageonly .visiontile.v0{min-height:430px}.visionmosaic.imageonly .visiontile.v2{grid-column:span 2;min-height:205px}
+.visionaddtile.imageadd{min-height:125px;border-radius:14px;background:#231513}.compactempty{min-height:360px}.compactempty small{display:none}
+.modal{align-items:center;padding:calc(env(safe-area-inset-top) + 12px) 18px calc(env(safe-area-inset-bottom) + 12px)}
+.sheet{border-radius:26px;width:100%;max-height:78dvh;padding:18px 16px;box-shadow:0 24px 70px #000b}
+.sheet:has(.setupcompact){max-height:68dvh;padding:0;overflow:hidden;background:#181411}
+.setupcompact{display:flex;flex-direction:column;max-height:68dvh}
+.setupcompact .setuphero{margin:0;padding:18px 18px 14px;border-radius:0;background:linear-gradient(135deg,#511913,#81261d)}
+.setupcompact .setuphero h2{font-size:25px;margin:4px 0}.setupcompact .setuphero p{font-size:12px;margin:0 0 10px;line-height:1.3}
+.setupcompact .setuplist{overflow:auto;padding:3px 14px;flex:1}.setupcompact .setupitem{padding:9px 0;grid-template-columns:25px 1fr 12px;gap:7px}.setupcompact .setupitem .setupcheck{font-size:19px}.setupcompact .setupitem strong{font-size:12px;margin-bottom:1px}.setupcompact .setupitem small{font-size:10px;line-height:1.2}.setupcompact .setupitem b{font-size:17px}
+.setupcompact>.primary,.setupcompact>.secondary{width:calc(100% - 28px);margin-left:14px;margin-right:14px;padding:11px}.setupcompact>.secondary{margin-bottom:12px}
+.setupcompact+.close,.sheet:has(.setupcompact)>.close{top:10px;right:10px;z-index:3}

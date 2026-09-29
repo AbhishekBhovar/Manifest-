@@ -1,3 +1,3 @@
-# MANIFEST 1.5
+MANIFEST 1.6
 
-Editable image-first Vision Board patch. Clean first launch, iPhone photo upload/change, crop position, tile shape, short captions, optional goal linking, and safe-area refinements.
+Image-only Vision Board, direct iPhone photo upload, compact setup popup, strict clean 0/7 onboarding state, and editable/replaceable vision images.
