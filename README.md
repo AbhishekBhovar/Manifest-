@@ -1,4 +1,4 @@
-MANIFEST 2.1
+MANIFEST 2.2
 
 GitHub Pages ready. Upload the contents of this folder to the repository root.
 
