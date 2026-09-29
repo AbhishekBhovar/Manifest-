@@ -1,4 +1,4 @@
-# MANIFEST 1.0
+# MANIFEST 1.1
 **See it. Believe it. Live it.**
 
 Mobile-first goals, vision-board and manifestation web app, designed around iPhone 16 Pro.
@@ -22,3 +22,11 @@ Upload the files in this folder to the root of a GitHub repository and enable Gi
 - Persistent localStorage with migration from the earlier BECOMING build
 - JSON data export
 - Responsive iPhone-safe-area navigation
+
+
+## 1.1 structure
+- Four core areas: Dashboard, Vision, Goals, Manifest.
+- Dashboard surfaces up to five Key Goals and one action for today.
+- Goals open into a dedicated Implementation Plan with milestones, obstacles, If→Then planning, next action, and progress.
+- Vision stays aspirational and can be converted into a goal when ready.
+- Manifest uses SEE → FEEL → BELIEVE → ALIGN → PLAN → ACT and carries the final action to the Dashboard.
