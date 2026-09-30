@@ -92,3 +92,23 @@ nav button{width:20%!important;padding:0 2px}nav button span{font-size:10px!impo
   background-position:center top;
   transform:none;
 }
+
+/* v2.4 iPhone-safe Fuel image picker.
+   Keep the native file input in the document instead of display:none:
+   iOS Safari/Chrome can refuse a scripted click on a hidden file input. */
+.nativefile{
+  position:absolute!important;
+  width:1px!important;height:1px!important;
+  opacity:.001!important;
+  overflow:hidden!important;
+  pointer-events:none!important;
+}
+.fuelimagepick{cursor:pointer}
+.fuelimagepick small{
+  display:block;
+  margin-top:2px;
+  font-size:11px;
+  line-height:1.25;
+  font-weight:550;
+  color:#8e8379;
+}
