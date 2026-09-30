@@ -83,3 +83,12 @@ nav button{width:20%!important;padding:0 2px}nav button span{font-size:10px!impo
 
 /* MANIFEST 2.2 — compact cinematic Enter control */
 .splash-bottom #enter{width:116px;height:46px;min-height:46px;padding:0;background:#f3ead9;color:#171311;border:0;border-radius:14px;font-size:16px;font-weight:700;box-shadow:0 8px 24px #0005;transition:transform .14s ease,opacity .14s ease}.splash-bottom #enter:active{transform:scale(.96);opacity:.9}.splash-bottom .tag{margin-bottom:18px}
+
+/* MANIFEST 2.3 — clean cinematic splash crop; wordmark is not rendered on intro */
+.splash-art{
+  background-image:linear-gradient(to bottom,transparent 48%,#050607 92%),url('manifest-logo.png');
+  background-size:auto 150%;
+  background-repeat:no-repeat;
+  background-position:center top;
+  transform:none;
+}
