@@ -112,3 +112,18 @@ nav button{width:20%!important;padding:0 2px}nav button span{font-size:10px!impo
   font-weight:550;
   color:#8e8379;
 }
+
+/* MANIFEST 2.5 */
+.goalcard-elevated{background:#211e1e!important;box-shadow:0 12px 30px rgba(74,35,25,.16)!important}
+.compact-goal-actions{gap:8px!important;justify-content:flex-start!important}
+.compact-goal-actions .secondary{width:auto!important;min-height:42px!important;height:42px!important;padding:0 15px!important;font-size:14px!important;border-radius:13px!important;flex:0 0 auto!important}
+.completed-steps{margin-top:18px;padding-top:12px;border-top:1px solid rgba(120,95,75,.22)}
+.completed-steps summary{list-style:none;cursor:pointer;font-size:12px;font-weight:750;letter-spacing:.14em;color:#a98751;padding:8px 0}.completed-steps summary::-webkit-details-marker{display:none}
+.primary:not(.red),.compact-primary{width:auto!important;min-width:154px!important;max-width:220px!important;min-height:48px!important;height:48px!important;padding:0 24px!important;margin-left:auto!important;margin-right:auto!important;border-radius:16px!important;font-size:16px!important}
+.page-title-row{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.vision-prompt-btn,.board-edit-btn{appearance:none;border:0;background:#211e1e;color:#ddd2c7;border-radius:14px;padding:10px 14px;font:600 13px/1 system-ui,-apple-system,sans-serif}
+.vision-prompt h2{font-size:25px;margin:5px 0 12px}.vision-prompt p{font-size:15px;line-height:1.5;color:#5f5751}.prompt-dismiss{display:flex;gap:9px;align-items:center;margin:18px 0;color:#766b62;font-size:13px}
+.freefuelboard.freeform-ready{display:block!important;position:relative!important;columns:auto!important;width:100%;min-height:420px}
+.freefuelboard.freeform-ready .fuelcard{position:absolute!important;margin:0!important;touch-action:auto}
+.freefuelboard.editing .fuelcard{touch-action:none;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+.fuel-resizer{display:none;position:absolute;right:-6px;bottom:-6px;width:30px;height:30px;border-radius:50%;background:#f2e6d4;box-shadow:0 2px 12px rgba(0,0,0,.25);z-index:10}.fuel-resizer:after{content:"↘";position:absolute;inset:0;display:grid;place-items:center;color:#211b18;font-size:14px}.freefuelboard.editing .fuel-resizer{display:block}
