@@ -113,17 +113,19 @@ nav button{width:20%!important;padding:0 2px}nav button span{font-size:10px!impo
   color:#8e8379;
 }
 
-/* MANIFEST 2.5 */
-.goalcard-elevated{background:#211e1e!important;box-shadow:0 12px 30px rgba(74,35,25,.16)!important}
-.compact-goal-actions{gap:8px!important;justify-content:flex-start!important}
-.compact-goal-actions .secondary{width:auto!important;min-height:42px!important;height:42px!important;padding:0 15px!important;font-size:14px!important;border-radius:13px!important;flex:0 0 auto!important}
-.completed-steps{margin-top:18px;padding-top:12px;border-top:1px solid rgba(120,95,75,.22)}
-.completed-steps summary{list-style:none;cursor:pointer;font-size:12px;font-weight:750;letter-spacing:.14em;color:#a98751;padding:8px 0}.completed-steps summary::-webkit-details-marker{display:none}
-.primary:not(.red),.compact-primary{width:auto!important;min-width:154px!important;max-width:220px!important;min-height:48px!important;height:48px!important;padding:0 24px!important;margin-left:auto!important;margin-right:auto!important;border-radius:16px!important;font-size:16px!important}
-.page-title-row{display:flex;align-items:center;justify-content:space-between;gap:12px}
-.vision-prompt-btn,.board-edit-btn{appearance:none;border:0;background:#211e1e;color:#ddd2c7;border-radius:14px;padding:10px 14px;font:600 13px/1 system-ui,-apple-system,sans-serif}
-.vision-prompt h2{font-size:25px;margin:5px 0 12px}.vision-prompt p{font-size:15px;line-height:1.5;color:#5f5751}.prompt-dismiss{display:flex;gap:9px;align-items:center;margin:18px 0;color:#766b62;font-size:13px}
-.freefuelboard.freeform-ready{display:block!important;position:relative!important;columns:auto!important;width:100%;min-height:420px}
-.freefuelboard.freeform-ready .fuelcard{position:absolute!important;margin:0!important;touch-action:auto}
-.freefuelboard.editing .fuelcard{touch-action:none;box-shadow:0 10px 30px rgba(0,0,0,.35)}
-.fuel-resizer{display:none;position:absolute;right:-6px;bottom:-6px;width:30px;height:30px;border-radius:50%;background:#f2e6d4;box-shadow:0 2px 12px rgba(0,0,0,.25);z-index:10}.fuel-resizer:after{content:"↘";position:absolute;inset:0;display:grid;place-items:center;color:#211b18;font-size:14px}.freefuelboard.editing .fuel-resizer{display:block}
+/* MANIFEST 2.5 FIXED */
+.goalcard-elevated{background:#24201f!important;box-shadow:0 14px 34px rgba(55,28,21,.16)!important}
+.goalcard-elevated .progress{background:#514039!important}.goalcard-elevated .nextline .muted{color:#b4aaa4!important}
+.smallactions{display:flex!important;gap:8px!important;justify-content:flex-start!important;margin-top:16px!important}
+.smallactions .secondary{width:auto!important;min-height:40px!important;height:40px!important;padding:0 14px!important;margin:0!important;border-radius:12px!important;font-size:13px!important;flex:0 0 auto!important}.smallactions .subtleaction{opacity:.72}
+.completedsteps{margin-top:18px;padding-top:10px;border-top:1px solid rgba(79,61,50,.28)!important}
+.completedsteps summary{list-style:none;cursor:pointer;padding:8px 0 10px;font-size:11px;font-weight:800;letter-spacing:1.2px;color:#9e7048}.completedsteps summary::-webkit-details-marker{display:none}.completedsteps summary::after{content:"  ›";font-size:16px}.completedsteps[open] summary::after{content:"  ⌄"}
+.compactcta{width:auto!important;min-width:154px!important;max-width:210px!important;min-height:48px!important;height:48px!important;display:block!important;margin:12px auto 0!important;padding:0 22px!important;border-radius:15px!important;font-size:16px!important}
+.todaycard{background:#e5dacb!important;padding:13px 16px!important;min-height:64px!important;font-size:16px!important;border-radius:16px!important}.todaycard b{font-size:18px!important}
+.visiontitleline{display:flex;align-items:center;gap:9px}.visionpromptbtn{width:28px;height:28px;border:0;border-radius:50%;background:#211d1b;color:#d9cfc4;font-size:13px;font-weight:800;padding:0}.visionprompt h2{margin:4px 0 12px!important}.visionprompt p{font-size:15px!important;line-height:1.5;color:#5f5751!important}
+.fuelheadbuttons{display:flex;align-items:center;gap:8px}.fuelsecondary{border:0;background:#211d1b;color:#d8cec5;min-height:40px;padding:0 13px;border-radius:13px;font-size:12px;font-weight:700}
+.fuelboard.freeform{display:block!important;columns:auto!important;column-gap:0!important;position:relative!important;width:100%;min-height:340px}
+.fuelboard.freeform .fueltile{position:absolute!important;margin:0!important;min-height:0!important;overflow:hidden;touch-action:auto}
+.fuelboard.freeform .fueltile img{width:100%!important;height:100%!important;min-height:0!important;object-fit:cover!important}
+.fuelboard.freeform.editing .fueltile{touch-action:none;box-shadow:0 12px 30px rgba(0,0,0,.42)}
+.fuelresize{display:none;position:absolute;right:6px;bottom:6px;width:28px;height:28px;border-radius:50%;background:#f3eadc;color:#1d1815;box-shadow:0 4px 14px rgba(0,0,0,.3);z-index:20}.fuelresize::after{content:"↘";position:absolute;inset:0;display:grid;place-items:center;font-size:13px;font-weight:800}.fuelboard.freeform.editing .fuelresize{display:block}

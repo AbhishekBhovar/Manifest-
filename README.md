@@ -8,4 +8,4 @@ Adds a permanent fifth Fuel tab with a Pinterest-style masonry board for quotes,
 MANIFEST 2.4: fixed Fuel image/screenshot selection on iPhone using a native label-backed file picker; selected filename is acknowledged before saving.
 
 
-MANIFEST 2.5: goal checklist instant save + completed grouping; compact controls; stronger goal contrast; compact cream buttons; Vision prompt; draggable/resizable/overlapping Fuel board.
+MANIFEST 2.5 FIXED: full build with goal autosave/completed grouping, compact actions/buttons, stronger goal contrast, Vision prompt, and freeform Fuel board.
