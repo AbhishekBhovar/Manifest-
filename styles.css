@@ -143,3 +143,63 @@ nav button{width:20%!important;padding:0 2px}nav button span{font-size:10px!impo
 .manifestexercise{width:100%;border:0;background:#251f1c;color:var(--text);border-radius:18px;padding:16px;margin-top:9px;display:flex;align-items:center;justify-content:space-between;text-align:left}.manifestexercise div{display:flex;flex-direction:column;gap:4px}.manifestexercise small{color:#d9a557;opacity:1}.manifestexercise strong{font-size:15px}.manifestexercise span{font-size:11px;color:var(--muted)}.manifestexercise>b{font-size:17px;color:#d9a557}.manifestcount{display:flex;justify-content:space-between;margin:18px 2px 0;color:var(--muted);font-size:12px}.manifestcount strong{color:var(--text)}
 .journeysetup .setuphero p{line-height:1.45}.journeysetup .setupitem{grid-template-columns:34px 1fr 16px!important;align-items:center}.journeynum{font-size:11px;font-weight:850;color:#a6693e;display:grid;place-items:center;width:28px;height:28px;border-radius:50%;background:#ede1d2}.journeysetup .setupitem.complete .journeynum{background:#2e6a4c;color:#fff}.setupstage{color:#a66f45!important;font-size:8.5px!important;letter-spacing:1px!important;font-weight:800!important;margin-bottom:1px!important}.setupcontinue{min-height:44px!important;font-size:15px!important}.setuplater{min-height:36px!important;font-size:13px!important}
 .reflectionmodal h2,.dinnermodal h2{margin-top:6px}.reflectionmodal .field,.dinnermodal .field{background:#e8ded2;color:#29211e}.reflectionmodal textarea.field,.dinnermodal textarea.field{min-height:84px}.dinnermodal>p{color:#655b54;font-size:14px;line-height:1.5}
+
+/* MANIFEST 2.7 — clear sequence + warmer, welcoming visual language */
+:root{
+  --bg:#120f0e;
+  --panel:#251e1a;
+  --text:#f7eadc;
+  --muted:#b8a79c;
+  --gold:#dfa85d;
+  --soft:#3b302a;
+  --terracotta:#b85f45;
+  --cream:#efe1cf;
+}
+html,body{background:
+  radial-gradient(circle at 80% 8%,rgba(151,66,42,.10),transparent 26%),
+  radial-gradient(circle at 8% 26%,rgba(218,158,80,.055),transparent 30%),
+  var(--bg)!important}
+main{background:transparent}
+nav{background:#171210f2!important;box-shadow:0 -12px 34px rgba(0,0,0,.16)}
+nav button.active{color:#e6aa4d!important}
+h1,h2{color:#f8ecdf}
+.warmtop{margin-bottom:14px}.welcome{font-size:11px;color:#c39e82;margin-bottom:5px;letter-spacing:.25px}.warmtop h1{margin-bottom:0}
+.currentjourney{
+  position:relative;overflow:hidden;
+  background:
+    radial-gradient(circle at 88% 10%,rgba(255,196,113,.22),transparent 28%),
+    linear-gradient(145deg,#35241e 0%,#2b1d19 48%,#221817 100%);
+  border-radius:24px;
+  padding:19px 18px 17px;
+  margin:0 0 20px;
+  box-shadow:0 18px 45px rgba(36,12,7,.22);
+}
+.currentjourney:before{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 30%,rgba(255,230,188,.035),transparent 70%);pointer-events:none}
+.currentmeta{display:flex;justify-content:space-between;align-items:center;position:relative}.currentmeta span{font-size:10px;letter-spacing:1.35px;color:#d7b08d;font-weight:750}.currentmeta b{font-size:10px;letter-spacing:1.45px;color:#f0b75f}
+.questprogress{display:flex;align-items:center;margin:14px 0 20px;position:relative}
+.questprogress span{width:25px;height:25px;border-radius:50%;display:grid;place-items:center;flex:0 0 25px;font-size:10px;font-weight:850;background:#47362f;color:#8f7a6e}
+.questprogress span.done{background:#66765d;color:#fff1df}.questprogress span.current{background:#e1a451;color:#261712;box-shadow:0 0 0 5px rgba(225,164,81,.12),0 0 22px rgba(225,164,81,.24)}.questprogress span.future{opacity:.65}
+.questprogress i{height:2px;flex:1;background:#4d3c35;margin:0 3px}.questprogress i.done{background:#7b8063}
+.currentjourney h2{font-size:27px!important;margin:0 0 8px;line-height:1.08}.currentjourney p{font-size:14px;line-height:1.48;color:#d5c3b6;margin:0 0 17px;max-width:94%}
+.journeycta{width:100%;border:0;background:var(--cream);color:#281b16;border-radius:15px;min-height:48px;padding:0 15px;font-size:15px;font-weight:800;display:flex;align-items:center;justify-content:space-between}.journeycta span{font-size:18px}
+.journeyoverview{display:block;border:0;background:transparent;color:#c8a88f;margin:10px auto 0;padding:5px 10px;font-size:11px}
+.journeycomplete{background:linear-gradient(145deg,#30231d,#241b18);border-radius:22px;padding:18px;margin-bottom:20px}.journeycomplete small{font-size:9px;letter-spacing:1.4px;color:#dfab61;font-weight:800}.journeycomplete h2{font-size:23px;margin:8px 0 7px}.journeycomplete p{font-size:13px;color:#c9b7aa}.journeycomplete div{display:flex;align-items:center;justify-content:space-between;font-size:9px;letter-spacing:1px;color:#deb16d;font-weight:800}.journeycomplete i{font-style:normal;color:#755e51}
+.warmtoday{background:#eadcca!important;color:#261b17!important;box-shadow:0 12px 30px rgba(53,24,15,.09)}
+.sectionhead h2{font-size:23px!important}.pill{background:#2e2420!important;color:#e6d6c8!important}
+.goalcard,.goalcard-elevated{background:#2a211e!important;box-shadow:0 14px 34px rgba(30,11,7,.16)!important}.goalcard .progress,.goalcard-elevated .progress{background:#5b4439!important}
+.becomingcard{background:linear-gradient(135deg,#2a211c,#211a17)!important}.reflectbuttons button{background:linear-gradient(145deg,#291f1b,#211916)!important;box-shadow:0 12px 28px rgba(24,8,4,.11)}
+.reflectbuttons small{color:#e1ad62!important}.celebrationmini{background:linear-gradient(135deg,#35251d,#241b18)!important}
+.warmsetup .setuphero{background:linear-gradient(145deg,#f2e4d2,#e9d5be)!important;color:#2c211c!important}.warmsetup .setuphero .eyebrow{color:#9c6042!important}.warmsetup .setuphero p{color:#67564d!important}.warmsetup .setupbar{background:#d4c0aa!important}.warmsetup .setupbar i{background:linear-gradient(90deg,#bd6546,#dda250)!important}
+.warmsetup .setupitem{background:#f0e4d5!important}.warmsetup .setupitem.currentstep{background:#f8ead7!important;box-shadow:inset 4px 0 #d68f49,0 7px 18px rgba(79,45,27,.09)}.warmsetup .setupitem.futurestep{opacity:.48;filter:saturate(.55)}.warmsetup .setupitem.futurestep:disabled{cursor:default}.warmsetup .setupitem.complete{background:#e8e1d0!important}
+.warmsetup .setupstage{color:#a66342!important}.warmsetup .currentstep .setupstage{color:#bd703f!important}.journeynum{background:#e4d2be!important;color:#9e6242!important}.warmsetup .setupitem.complete .journeynum{background:#708068!important;color:#fff7e9!important}
+.modalbox{background:#f1e5d5!important;box-shadow:0 30px 80px rgba(31,10,5,.35)!important}
+
+/* MANIFEST 2.8 — Mental Cue */
+.cueadd,.cuecard{width:100%;border:0;border-radius:17px;margin:9px 0 16px;text-align:left}
+.cueadd{background:linear-gradient(145deg,#241c19,#1e1816);color:var(--text);padding:12px 13px;display:grid;grid-template-columns:34px 1fr 24px;gap:10px;align-items:center;box-shadow:0 10px 26px rgba(20,7,4,.09)}
+.cueadd .cueicon{width:32px;height:32px;border-radius:50%;display:grid;place-items:center;background:#35261f;color:#e2ad62;font-size:17px}
+.cueadd>span:nth-child(2){display:flex;flex-direction:column;gap:2px}.cueadd small{font-size:8.5px;letter-spacing:1.2px;color:#d6a05b;font-weight:800}.cueadd strong{font-size:13px}.cueadd em{font-size:10px;color:#9f9086;font-style:normal;margin-top:1px}.cueadd>b{font-size:19px;color:#d9a85f;text-align:center}
+.cuecard{position:relative;overflow:hidden;background:linear-gradient(135deg,#3b281f 0%,#2a1e1a 58%,#241a18 100%);color:#f5e8da;padding:15px 15px 14px;display:flex;align-items:flex-start;justify-content:space-between;gap:12px;box-shadow:0 14px 34px rgba(47,15,8,.15)}
+.cuecard:before{content:"";position:absolute;right:-25px;top:-40px;width:130px;height:130px;border-radius:50%;background:radial-gradient(circle,rgba(232,167,84,.16),transparent 68%);pointer-events:none}
+.cuecard div{position:relative;z-index:1}.cuecard small{display:block;font-size:8.5px;letter-spacing:1.25px;color:#e0a95c;font-weight:800;margin-bottom:7px}.cuecard strong{font-size:12px;color:#cdb9aa}.cuecard p{font-size:17px;line-height:1.35;margin:5px 0 0;font-weight:650;color:#fff0df}.cuecard>span{position:relative;z-index:1;font-size:10px;color:#bba799;padding-top:2px}
+.cuemodal>p{font-size:14px;line-height:1.5;color:#685a52}.cuepresets{display:flex;flex-wrap:wrap;gap:6px;margin:-2px 0 14px}.cuepresets button{border:0;background:#ded0bf;color:#574940;border-radius:999px;padding:7px 10px;font-size:11px;font-weight:650}.cueexamples{margin:-4px 0 13px}.cueexamples small{color:#8b7b71;font-size:11px}.cueclear{min-height:38px!important;height:38px!important;font-size:12px!important;margin-top:7px!important}
