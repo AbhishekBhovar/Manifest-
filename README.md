@@ -30,3 +30,38 @@ MANIFEST 2.8
 - preset triggers for doorway, car, work, mirror, training and performance
 - cue is deliberately not another setup step
 - saved cue appears as a warm Today card and can be changed or removed anytime
+
+
+MANIFEST 2.9 — SIMPLIFIED
+- Dashboard culled to current journey step + Today + Key Goals
+- onboarding reduced to five core steps: SEE → GOALS → BECOME → PLAN → ACT
+- optional practices moved out of Dashboard into Manifest
+- Goals simplified; duplicate Create button and empty Other Goals section removed
+- System/Habit field removed; identity remains optional
+- Settings simplified
+- About footer added with format explanation and source inspirations
+
+
+MANIFEST 3.0 — CLARITY RESET
+- Dashboard reduced to Current Step + Today + About only
+- seven-stage journey restored: SEE → DEFINE → PRIORITISE → BECOME → PLAN → ACT → REFLECT
+- new singular Vision flow: prompt → guided prompt builder → AI-ready prompt → one saved board image
+- manual multi-image Vision collage UI removed
+- Manifest retains optional practices without Dashboard clutter
+- journey popup redesigned in cream/charcoal/gold/sage; normal CTAs are no longer emergency red
+- About shows MANIFEST 3.0 visibly
+
+
+MANIFEST 3.0 VERIFIED RESEND
+Inspected 2026-10-08.
+Confirmed in the package:
+- new single-board Vision flow
+- Create my Vision prompt flow
+- four-field guided Vision prompt builder
+- Suggest from my goals
+- Generate Vision / copy AI-ready prompt / add finished board
+- redesigned Journey popup with non-red CTA
+- 7-step SEE → DEFINE → PRIORITISE → BECOME → PLAN → ACT → REFLECT framework
+- MANIFEST 3.0 visible in About
+- simplified Dashboard
+This resend renames JS/CSS assets to app-3.0.js and styles-3.0.css to prevent the browser from reusing an older cached build.
